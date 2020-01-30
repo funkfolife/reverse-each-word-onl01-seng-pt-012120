@@ -3,6 +3,6 @@ def reverse_each_word(words)
    words.each do |word|
      new_array << (word.reverse)
    end
-   puts " #{new_array} "
+   puts new_array
 end 
     
